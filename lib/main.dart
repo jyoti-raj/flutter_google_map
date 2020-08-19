@@ -27,7 +27,7 @@ class _MyGoogleMapState extends State<MyGoogleMap> {
   lw2() async {
     double lat = 26.813552;
     double lon = 85.6853802;
-    var key = '9185190de3ee1ffbe5552458a9a01231';
+    var key = 'api_key_value';
     WeatherFactory weather = WeatherFactory(key);
     Weather p = await weather.currentWeatherByLocation(lat,
         lon); //show weather according to coordinates...we can also get weather info by ciyt name or by country name
